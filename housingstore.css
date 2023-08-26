@@ -1,0 +1,148 @@
+/* css external */
+.bloc {
+position: relative;
+height: 100%;
+width: 100%;
+overflow: hidden;
+}
+.bloc video {
+position: absolute;
+min-height: 100%;
+min-width: 100%;
+z-index: -100;
+}
+.bloc2 {
+position: relative;
+width: -10%;
+height: -10%;
+margin-top: -20%; 
+margin-left:-50%;
+
+}
+.bloc2 video{
+position: absolute;
+
+
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.header input{
+color:antiquewhite;
+background-color: transparent;
+font-family: gothic;
+border: 4px solid rgb(208, 44, 47);
+border-radius: 20px;
+font-size: large;
+width: 200px;
+height: 60px;
+}
+.Caddy p {
+  color: whitesmoke;
+  font-family: gothic;
+  border-style: solid;
+  color: blueviolet;
+ 
+}
+.option-home-card1{
+  border-style: solid;
+  color: rgb(107, 42, 17);
+  border-radius: 10%;
+  height: 50px;
+}
+.shopping {
+  background-color: rgb(20, 192, 163);
+  border-radius: 90%;
+  position: absolute;
+}
+.quantity {
+  background-color: red;
+  justify-content: center;
+}
+header .shopping span {
+  background: red;
+  border-radius: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: -5px;
+  left: 80%;
+  padding: 3px 10px;
+}
+.main {
+
+}
+.main h1 {
+  color: antiquewhite;
+  font-family: gothic;
+  text-align: center;
+  text: shadow 100px;
+}
+.main p {
+  color: antiquewhite;
+  font-family: gothic;
+  text-align: center;
+}
+.section1 {
+border-style: solid;
+color:rgb(109, 128, 136);
+border-radius: 30%;
+justify-content:space-between;
+display:flex;
+flex-wrap: wrap;
+ padding: 280px;
+gap: 20px;
+}
+.home-card {
+  background-color: aliceblue;
+  border-radius: 10px;
+ display: flex;
+  width: 150px;
+  height: 300px;
+  padding: 20px;
+  flex-direction: column;
+  
+}
+.home-card:hover
+{
+transform: rotate(-20deg) scale(1.5);
+}
+
+
+.title-home-card .h1 {
+  
+  font-family: gothic;
+  text-align: center;
+}
+.title-home-card .h1 {
+  
+  font-family: gothic;
+  text-align: center;
+}
+.option-home-card {
+ 
+  font-family: gothic;
+  text-align: center;
+}
+
+
+
+
+
+
+.footer {
+
+  color: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+  font-family: gothic;
+}
+.footer img {
+border-radius: 40%;
+height: 450%;
+width: 400px;
+}
+  
